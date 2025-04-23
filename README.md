@@ -7,7 +7,7 @@ AutoCheckout is an end-to-end smart billing system that eliminates the need for 
 
 You can view the live backend/web interface hosted on Render here:
 
-👉 **[Visit AutoCheckout Web App](https://sdp-demo-itzrn.onrender.com)**
+👉 **[Visit AutoCheckout Web App](https://autocheckouts.onrender.com/)**
 
 _This REST API is responsible for receiving predictions from the client and pushing them to Firebase in real-time._
 
