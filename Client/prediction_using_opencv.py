@@ -37,6 +37,8 @@ class AutoCheckoutSystem:
         self.url = ""
         self.time_out_threshold_value = 600
         self.CV_WINDOW_SIZE = 600
+        self.CV_WINDOW_LENGTH = 800
+        self.CV_WINDOW_WIDTH = 600
 
         cred = credentials.Certificate('autocheckouts_firebase_credential.json')
         firebase_admin.initialize_app(cred, {
