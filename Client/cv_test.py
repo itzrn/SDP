@@ -1,9 +1,7 @@
 import cv2
 
-url = 'http://192.168.137.58:81/stream'  # replace with your actual IP
+url = 'video1.mp4'  # replace with your actual IP
 cap = cv2.VideoCapture(url, cv2.CAP_FFMPEG)
-
-
 
 WINDOW_SIZE = 600
 while True:

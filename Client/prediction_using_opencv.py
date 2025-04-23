@@ -42,7 +42,7 @@ class AutoCheckoutSystem:
 
         cred = credentials.Certificate('autocheckouts_firebase_credential.json')
         firebase_admin.initialize_app(cred, {
-            'databaseURL': 'Add your Fire base URL'
+            'databaseURL': 'https://sdpautocheckouts-default-rtdb.asia-southeast1.firebasedatabase.app/'
         })
 
     def set_video_path(self, path):
@@ -123,7 +123,7 @@ class AutoCheckoutSystem:
             square_frame = cv2.resize(frame, (self.CV_WINDOW_SIZE, self.CV_WINDOW_SIZE))
 
             # pred_class = self.predict_frame(frame)
-            pred_class = self.predict_frame(square_frame)
+            pred_class = self.predict_frame(frame)
             status = self.custom_push(pred_class)
             if not status:
                 cart_ref = self.db_reference('cart')
