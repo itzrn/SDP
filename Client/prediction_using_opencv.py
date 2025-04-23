@@ -42,7 +42,7 @@ class AutoCheckoutSystem:
 
         cred = credentials.Certificate('autocheckouts_firebase_credential.json')
         firebase_admin.initialize_app(cred, {
-            'databaseURL': 'https://sdpautocheckouts-default-rtdb.asia-southeast1.firebasedatabase.app/'
+            'databaseURL': 'Add your Fire base URL'
         })
 
     def set_video_path(self, path):
