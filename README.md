@@ -171,7 +171,7 @@ mAuth.signInWithEmailAndPassword(email, password)
 
 ## 🚀 Full Run Instructions
 1. **ESP32-CAM**: Upload `CameraWebServer.ino` and connect to WiFi.
-2. **FastAPI Backend**: Launch server with `uvicorn` or deploy on Render.
+2. **RestAPI Backend**: Launch server with `uvicorn` or deploy on Render.
 3. **Client**: Run prediction script with OpenCV to send results to API.
 4. **Android App**: Install APK or build using Android Studio and login with Firebase credentials.
 
