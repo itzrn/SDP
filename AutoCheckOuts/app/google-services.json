@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "106759076939",
+    "firebase_url": "https://sdpautocheckouts-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "sdpautocheckouts",
+    "storage_bucket": "sdpautocheckouts.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106759076939:android:fdf3da1444e0fa8e04a1ce",
+        "android_client_info": {
+          "package_name": "com.example.autocheckouts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo7Ftf9esgJvw10uooFx02OOsBzXNL2sQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106759076939:android:80c5549e56688c1304a1ce",
+        "android_client_info": {
+          "package_name": "com.example.democheckouts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo7Ftf9esgJvw10uooFx02OOsBzXNL2sQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
