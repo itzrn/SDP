@@ -58,7 +58,7 @@ This module uses OpenCV to stream and analyze video feed from ESP32-CAM.
 ### ⚖️ Steps to Run
 ```bash
 cd client
-python predict_stream.py  # Make sure the stream is live and model.pth is present
+python run2.py  # Make sure the stream is live and model.pth is present
 ```
 
 - Frame is read from ESP32 stream
