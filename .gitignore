@@ -13,6 +13,17 @@ bin-release/
 *.ipa
 *.apk
 
+Client/autocheckouts_firebase_credential.json
+Client/Fine_Tuning_vit_model_weights.pth
+Client/model.pth
+Client/vit_model_weights.pth
+Vision Transformer/Fine_Tuning_vit_model_weights_new.pth
+Vision Transformer/vit_model_weights.pth
+
+.ipynb_checkpoints
+.idea
+__pycache__
+
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
