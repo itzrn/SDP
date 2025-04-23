@@ -1,6 +1,6 @@
-# AutoCheckout: AI-Powered Smart Billing System 🏍️🤖
+# AutoCheckout: AI-Powered Smart Billing System 🛒🤖
 
-AutoCheckout is an end-to-end smart billing system that eliminates the need for manual checkout in retail settings. It leverages a **Vision Transformer (ViT)** model for real-time object detection, live streaming via **ESP32-CAM**, real-time communication using **FastAPI**, data persistence with **Firebase Realtime Database**, and an **Android application** to display user-specific cart and history.
+AutoCheckout is an end-to-end smart billing system that eliminates the need for manual checkout in retail settings. It leverages a **Vision Transformer (ViT)** model for real-time object detection, live streaming via **ESP32-CAM**, real-time communication using **RestAPI**, data persistence with **Firebase Realtime Database**, and an **Android application** to display user-specific cart and history.
 
 ---
 ## 🌐 Live Web Interface
