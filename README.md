@@ -39,7 +39,7 @@ This folder contains the ViT-B/16 based architecture and training logic:
 2. Load pretrained ViT-B/16 model from torchvision.
 3. Freeze base layers, modify classification head.
 4. Train using label smoothing loss.
-5. Save model (`vit_model_quantized.pth`).
+5. Save model (`mdoel.pth`).
 
 ---
 
@@ -56,10 +56,11 @@ python predict_stream.py  # Assumes stream is live and model is downloaded
 ```
 
 ### 📸 Screenshot of Live Prediction
-> 🖼️ Place your screenshot here: `media/live_prediction.png`
+> 🖼️ Place your screenshot here: `media/live_prediction_img1.png`
 
 ```md
-![Live Prediction](media/live_prediction.png)
+![Live Prediction](media/live_prediction_img1.png)
+![Live Prediction](media/live_prediction_img2.png)
 ```
 
 ---
