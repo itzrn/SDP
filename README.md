@@ -68,8 +68,8 @@ python run2.py  # Make sure the stream is live and model.pth is present
 ### 📸 Screenshots
 > Live predictions on detected items:
 
-![Live Prediction 1](https://github.com/itzrn/SDP/blob/main/media/live_prediction_img1.png)
-![Live Prediction 2](https://github.com/itzrn/SDP/blob/main/media/live_prediction_img2.png)
+![Live Prediction 1](media/live_prediction_img1.png)
+![Live Prediction 2](media/live_prediction_img2.png)
 
 ---
 
@@ -91,9 +91,7 @@ http://<ESP_IP_ADDRESS>:81/stream
 
 ### 📷 Hardware Setup
 > Add image of ESP32-CAM hardware:
-```md
-![ESP32 Hardware Setup](media/esp32_setup.png)
-```
+![ESP32 Hardware Setup](media/Connecting-esp32-cam-to-FTDI-for-uploading-code.png)
 
 ---
 
