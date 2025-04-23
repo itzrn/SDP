@@ -44,7 +44,7 @@ This folder contains the ViT-B/16 based architecture and training logic:
 ---
 
 ## 🔮 Live Prediction (client/)
-- Loads the `vit_model_quantized.pth` model.
+- Loads the `model.pth` model.
 - Connects to ESP32 video stream using OpenCV.
 - Processes each frame and performs inference.
 - Sends prediction results to REST API.
@@ -56,12 +56,9 @@ python predict_stream.py  # Assumes stream is live and model is downloaded
 ```
 
 ### 📸 Screenshot of Live Prediction
-> 🖼️ Place your screenshot here: `media/live_prediction_img1.png`
 
-```md
-![Live Prediction](media/live_prediction_img1.png)
-![Live Prediction](media/live_prediction_img2.png)
-```
+> ![Live Prediction 1](https://github.com/itzrn/SDP/blob/main/media/live_prediction_img1.png)
+> ![Live Prediction 2](https://github.com/itzrn/SDP/blob/main/media/live_prediction_img2.png)
 
 ---
 
