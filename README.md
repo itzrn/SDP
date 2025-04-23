@@ -162,11 +162,29 @@ mAuth.signInWithEmailAndPassword(email, password)
 ```
 
 ### 📸 App UI Flow
-> Add app flow screenshot here:
-```md
-![App Flow](media/app_flow.png)
-```
+> ## App Logo Page
+![App Flow](media/app_logo.jpg)
 
+> ## App Splash Page
+![App Flow](media/app_splash.jpg)
+
+> ## App SignUp Page
+![App Flow](media/app_signup.jpg)
+
+> ## App Login Page
+![App Flow](media/app_login.jpg)
+
+> ## Item Scan Page
+![App Flow](media/item_scan1.jpg)
+
+> ## Item Scan Page
+![App Flow](media/item_scan2.jpg)
+
+> ## Item Receipt Page
+![App Flow](media/app_receipt.jpg)
+
+> ## Checkout Successful page
+![App Flow](media/app_checkout_successful.jpg)
 ---
 
 ## 🚀 Full Run Instructions
